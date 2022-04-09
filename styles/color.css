@@ -1,0 +1,11 @@
+:root {
+  --price-color: #b12704;
+}
+
+.green {
+  color: #007600;
+}
+
+.blue-link {
+  color: var(--blue-links);
+}

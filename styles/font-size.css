@@ -1,0 +1,55 @@
+:root {
+  --navbar-p-font-size: 12px;
+  --navbar-span-font-size: 14px;
+  
+  --navbar-p-line-heignt: 14px;
+  --navbar-span-line-height: 15px;
+
+  --ad-font-size: 14px;
+  --ad-line-height: 19px;
+
+  --nav-main-a-font-size: 14px;
+  --nav-main-a-line-height: 12px;
+
+  --breadcrubms-font-size: 12px;
+  --breadcrubms-line-height: 14px;
+
+  --blue-links: #007185;
+  --weird-orange-hover-link: #c7511f;
+}
+
+
+.fs-lh-14-20 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.fs-lh-18-24 {
+  font-size: 18px;
+  line-height: 25px;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-700 {
+  font-weight: 700;
+}
+
+.price {
+  color: var(--price-color);
+}
+
+.price-big {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.price-medium {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.price-small {
+  font-size: 12px;
+  line-height: 16px;
+}

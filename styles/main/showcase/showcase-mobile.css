@@ -1,0 +1,16 @@
+.breadcrumbs-list {
+  display: none;
+}
+
+.grid-showcase {
+  grid-template-columns: 1fr;
+}
+
+.showcase-container .showcase-left-col {
+  position:static;
+  width: 100%;
+}
+
+.showcase-right-col .right-col__ad {
+  display: none;
+}

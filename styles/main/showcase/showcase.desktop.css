@@ -1,0 +1,404 @@
+/* Main */
+.main {
+  padding: 0 2rem 2rem 2rem;
+}
+/* Breadcrubms */
+.breadcrumbs-list {
+  font-size: var(--breadcrubms-font-size);
+  line-height: var(--breadcrubms-line-height);
+  font-weight: 400;
+  color: #565959;
+  margin-top: 1rem;
+  padding: 0 2rem;
+}
+
+.breadcrumbs-list li a:hover {
+  text-decoration: underline;
+}
+/* Showcase */
+
+.grid-showcase {
+  display: grid;
+  grid-template-columns: 33.5% 47.5% 19%;
+  margin-top: 2rem;
+  padding: 0 2rem 0 0;
+  grid-gap: 2rem;
+}
+
+/* Left Column */
+
+.showcase-container .showcase-left-col {
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+}
+
+.showcase-container .showcase-left-col .left-photo-grid .photos li  {
+  padding: 0.5rem;
+}
+
+.showcase-container .showcase-left-col .left-photo-grid .photos li img {
+  border: 1px solid black;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.showcase-container .showcase-left-col .left-photo-grid .photos li img:hover {
+  border-color: #e77600;
+  box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
+
+.showcase-container .showcase-left-col .showcase-photo img{
+  padding: 1rem;
+  max-width: 100%;
+}
+
+/* Mid Column */
+/* Top */
+.showcase-mid-col .mid-col__top .title {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #0f1111;
+}
+
+.showcase-mid-col .mid-col__top .visit-store a,
+.showcase-mid-col .mid-col__top .customer-review a {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #007185;
+}
+
+.showcase-mid-col .mid-col__top .visit-store a:hover,
+.showcase-mid-col .mid-col__top .customer-review a:hover {
+  text-decoration: underline;
+  color: #c7511f;
+}
+
+.showcase-mid-col .mid-col__top .customer-review .pipe {
+  color: #666;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.rating {
+  gap: 1rem;
+}
+
+.stars-wrapper {
+  cursor: pointer;
+}
+
+.amazon-choice span {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.amazon-choice span:last-child {
+  color: #f69931;
+}
+
+.badge-wrapper {
+  margin: 0.5rem 0 1rem;
+}
+
+.badge-text {
+  font-size: 14px;
+  line-height: 22px;
+  color: #111;
+  font-weight: 400;
+}
+
+/* Mid Column */
+/* Mid */
+
+.mid-col__mid {
+  margin: 1rem 0;
+}
+
+.list-price,
+.current-price,
+.you-save,
+.import-fee {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #565959;
+}
+
+.list-price span {
+  text-decoration: line-through;
+}
+
+.details {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #007185;
+}
+
+.details:hover {
+  color: #c7511f;
+  cursor: pointer;
+}
+
+.twister .color {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #565959;
+}
+
+.twister .color span {
+  font-weight: 700;
+}
+
+.twister .image-grid {
+  gap: 1rem;
+}
+.twister .image-grid .item {
+  border: 1px solid #E0E0E0;
+  padding: 0.5rem 1.5rem;
+}
+
+.twister-price {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #565959;
+}
+
+.twister .image-grid .item:hover .twister-price {
+  color: var(--price-color);
+}
+
+.twister .image-grid .item:hover {
+  cursor: pointer;
+}
+
+.product-info {
+  margin: 1rem 0;
+}
+.product-info table {
+  font-size: 14px;
+  line-height: 20px;
+  color: #0f1111;
+}
+
+.product-info table .th {
+  font-weight: 700;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}
+.product-info table .td {
+  font-weight: 400;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+}
+
+/* Mid Column */
+/* Bottom */
+
+.mid-col-bottom {
+  margin: 1rem 0;
+}
+.mid-col-bottom .about h2 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #0f1111;
+}
+
+.mid-col-bottom .about ul {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #0f1111;
+}
+
+.mid-col-bottom .compare {
+  margin: 1rem 0;
+}
+
+.mid-col-bottom .compare a{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #007185;
+}
+
+.mid-col-bottom .compare a:hover {
+  color: #c7511f;
+}
+
+.mid-col-bottom .note {
+  font-size: 14px;
+  line-height: 20px;
+  color: #0f1111;
+  font-weight: 400;
+}
+
+.mid-col-bottom .note span {
+  font-weight: 700;
+}
+
+/* Right Column */
+
+.buybox {
+  border: 1px #D5D9D9 solid;
+  border-radius: 8px;
+  margin: 0 2rem 1rem 1rem;
+}
+
+.buybox-container {
+  padding: 2rem 2rem 2rem 2rem;
+  
+}
+.delivery-block .location-delivery span {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--blue-links);
+}
+
+.buybox .details,
+.buybox .delivery-block .fs-lh-14-20,
+.in-stock,
+.qty,
+.buybox-btn,
+.secure-transaction,
+.shipping,
+.ships,
+.sold,
+.return-policy,
+.support,
+.gift,
+.share {
+  margin-bottom: 1rem;
+}
+
+.qty {
+  font-size: 11px;
+  line-height: 20px;
+  color: #0F1111;
+  border-radius: 7px;
+  background: #F0F2F2;
+  box-shadow: 0 2px 5px rgb(15 17 17 / 15%);
+  width: 60px;
+  height: 20px;
+  text-align: center;
+}
+
+.qty:focus {
+  background-color: #EDFDFF;
+}
+
+.buybox-btn {
+  border-radius: 20px;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 29px;
+  display: block;
+  width: 100%;
+}
+
+.add {
+  background: #FFD814;
+  border-color: #FCD200;
+}
+
+.add:hover {
+  background: #F7CA00;
+  border-color: #F2C200;
+}
+
+.buy {
+  background: #FFA41C;
+  border-color: #FF8F00;
+}
+
+.buy:hover {
+  background: #FA8900;
+  border-color: #E3931E;
+}
+
+.secure-transaction {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #007185;
+}
+
+.secure-transaction:hover {
+  color: #c7511f;
+  cursor: pointer;
+}
+
+.secure-transaction img {
+  width: 11.45px;
+  height: 15px;
+  margin-right: 0.5rem;
+}
+
+.shipping {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.ships span {
+  margin-left: 1rem;
+}
+.sold span {
+  color: var(--blue-links);
+  margin-left: 3rem;
+}
+
+.sold span:hover {
+  color: var(--weird-orange-hover-link);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.return-policy a,
+.support a {
+  color: var(--blue-links);
+}
+
+.return-policy a:hover,
+.support a:hover {
+  color: var(--weird-orange-hover-link);
+  cursor: pointer;
+}
+
+.buybox hr {
+  margin: 1rem 0;
+}
+
+.addtolist {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+  cursor: pointer;
+  background: linear-gradient(to bottom,#f7f8fa,#e7e9ec);
+  font-size: 13px;
+  line-height: 29px;
+  text-align: left;
+  padding-left: 1rem;
+  color: #0f1111;
+}
+
+.share {
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  gap: 1rem;
+}
+
+.share span {
+  padding-bottom: 0.5rem;
+}

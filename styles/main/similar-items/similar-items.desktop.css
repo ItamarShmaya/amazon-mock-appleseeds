@@ -1,0 +1,69 @@
+.similar-items-header {
+  justify-content: space-between;
+}
+
+.carousel-heading {
+  margin-bottom: 1rem;
+}
+
+.carousel-heading h2 {
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #cc6600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pagination {
+  color: #0f1111;
+}
+
+.carousel {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-list {
+  gap: 3rem;
+}
+.carousel-card {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: var(--blue-links);
+  width: 160px;
+}
+
+.carousel-card:hover .card-info {
+  color: var(--weird-orange-hover-link);
+  text-decoration: underline;
+}
+
+.icon-container {
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+  background: #FFF;
+  border: 1px solid #D5D9D9;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block; 
+  position: absolute;
+  padding: 0.8rem 1rem;
+  top: 50%;
+}
+.icon-prev {
+  left: 0;
+}
+.icon-next {
+  right: 0;
+}
+.prev {
+  width: 11px;
+  height: 15px;
+  background-position: -123px -7px;
+}
+.next {
+  width: 11px;
+  height: 15px;
+  background-position: -105px -7px;
+}

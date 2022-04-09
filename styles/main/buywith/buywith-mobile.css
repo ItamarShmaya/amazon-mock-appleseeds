@@ -1,0 +1,7 @@
+.package {
+  flex-direction: column;
+}
+
+.ship-message .alert-icon {
+  display: none;
+}
